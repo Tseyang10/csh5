@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(253, 253, 8, 0.96);
+}
+h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: auto;
+    text-align: center;
+}
+.containers{
+    position: absolute;
+    left: 40vw;
+}
+#div1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(66, 158, 9);
+    transition: width 2s;
+    /* transform-origin: left; */
+}
+#div1:hover{
+    width: 300px;
+}
+#div2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(66, 158, 9);
+    transition: width 4s,height 6s;
+}
+#div2:hover{
+    width: 300px;
+    height: 200px;
+}
+#div3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(66, 158, 9);
+    transition: width 2s;
+}
+#div3:hover{
+    width: 300px;
+}
+#div4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(66, 158, 9);
+    transition: width 3s;
+}
+#div4:hover{
+    width: 300px;
+}
+#div5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(66, 158, 9);
+    transition: width 2s;
+}
+#div5:hover{
+    width: 300px;
+}
+#div6{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(66, 158, 9);
+    transition: width 2s;
+}
+#div6:hover{
+    width: 300px;
+}
+#div7{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(66, 158, 9);
+    transition: width 2s;
+}
+#div7:hover{
+    width: 300px;
+}
+.btn a{
+    padding: 15px 20px;
+    margin: 10px;
+    font-size: 20px;
+    position: relative;
+    top: 65vw;
+    left: 40vw;
+    cursor: pointer;
+}
+#btn1{
+    transition-duration: 1s;   
+}
+#btn1:hover{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(blue,yellow);
+    width: 100px;
+}
+#btn2{
+   
+   transition-duration: 1s;   
+}
+#btn2:hover{
+text-decoration: none;
+   color: white;
+   background-image: radial-gradient(blue,yellow);
+   width: 100px;
+}
