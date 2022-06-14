@@ -80,7 +80,7 @@ h2{
 #div7:hover{
     width: 300px;
 }
-.btn a{
+.button a{
     padding: 15px 20px;
     margin: 10px;
     font-size: 20px;
@@ -89,20 +89,20 @@ h2{
     left: 40vw;
     cursor: pointer;
 }
-#btn1{
+#button1{
     transition-duration: 1s;   
 }
-#btn1:hover{
+#button1:hover{
     text-decoration: none;
     color: white;
     background-image: linear-gradient(blue,yellow);
     width: 100px;
 }
-#btn2{
+#button2{
    
    transition-duration: 1s;   
 }
-#btn2:hover{
+#button2:hover{
 text-decoration: none;
    color: white;
    background-image: radial-gradient(blue,yellow);
